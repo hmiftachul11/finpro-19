@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sidebar {
+    background-color: rgb(228, 236, 242);
+    width: 180px;
+    height: 100vh;
+    padding: 10px;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 1;
+    z-index: 1000;
+    transition: width 0.3s ease;
+    font-family: "Poppins", sans-serif
+  }
+  
+  div .logo{
+    width: 100%;
+    color: #333;
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: 800;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif
+  }
+  .sidebar-item {
+    width: 100%;
+    color: #4392F6;
+    padding: 4px 0;
+    padding-top: 3x;
+    padding-bottom: 3px;
+    text-align: left;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+    margin-top: 10px;
+
+  }
+
+
+.navbottom {
+    font-weight: lighter;
+    font-size: 14px;
+    width: 100%;
+    color: #333;
+    padding: 10px 10px;
+    text-align: left;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    transition: background-color 0.3s;
+    display: flex; 
+    align-items: center; 
+    gap: 0.5rem;
+    margin-top: 10px;
+  }
+
+.navbottom span {
+    padding: 10px 10px;
+    text-align: left;
+  
+}
+.navbottom:hover {
+    background-color: rgb(176, 77, 72);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+
+  
+  .sidebar-item.active, .sidebar-item:hover {
+    background-color: rgb(121, 188, 132);
+    color: white;
+    border-radius: 10px; 
+    cursor: pointer;
+  }
+
+ 
+  
+  .sidebar-item i {
+    display: block;
+    font-size: 20px; 
+    margin-left: 20px;
+    
+  }
+  
+  .sidebar-item span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  left: 0; 
+  top: 0;
+  background: #fff;
+  transition: left 0.3s ease; 
+  z-index: 2000;
+}
+
+.sidebar.open {
+  left: 0;
+}
+/* #C4D3DF */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2100;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #4392F6;
+}
+
+.menu-toggle:hover {
+  background-color: rgba(28, 40, 27, 0.1);
+  color: #000;
+ 
+
+}
+
+@media (max-width: 768px) {
+  
+  .sidebar {
+      left: -250px;
+  }
+
+  .menu-toggle {
+      display: block; 
+  }
+
+  .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 1900;
+  }
+
+  .overlay.active {
+      display: block;
+  }
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ 
+ 

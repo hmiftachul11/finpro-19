@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.activity-header-page {
+  background-image: url("https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 650px;
+  width: 100.9%;
+  margin-top: 80px;
+}
+
+.tagline-activity {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 230px;
+}
+
+.activity-content {
+  background-color: #fff;
+  width: 100%;
+  height: max-content;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.activity-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.activity-card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 370px;
+  margin-bottom: 20px;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+}
+
+.activity-image {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+.activity-info {
+  background-color: #e2d6ba;
+  padding: 15px;
+  text-align: left;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: max-content;
+}
+
+.activity-name {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.activity-location,
+.trip-date {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.activity-price {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.activity-price-discount {
+  text-align: right;
+  margin-top: -12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.activity-row {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+.activity-rating {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.activity-location {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 1px;
+}
+
+.activity-info-color-1 {
+  background-color: #65dabd;
+}
+
+.activity-info-color-2 {
+  background-color: #73a8d4;
+}
+
+.activity-info-color-3 {
+  background-color: #b4b94a;
+}
+
+.activity-info-color-4 {
+  background-color: #be4d4d;
+  color: #fff;
+}
+
+.activity-info-color-5 {
+  background-color: #fff;
+  color: #fff;
+}
+
+.activity-info-color-6 {
+  background-color: #547255;
+  color: #fff;
+}
+
+.activity-info-color-7 {
+  background-color: #d5d2cd;
+}
+
+.activity-info-color-8 {
+  background-color: #4392F6;
+}
+
+.drop-down {
+  width: 250px;
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 8px 10px;
+  border-radius: 30px;
+  border-color: #fff;
+  border: 1px solid #ccc;
+  justify-content: end;
+}
+
+.btn-search {
+  padding: 8px 20px;
+  background-color: #4392F6;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+  background-color: #488ec9;
+  color: #fff;
+  border-radius: 30px;
+}
+.tagline-detail-activity {
+  font-size: 15px;
+}
+
+/* Additional responsiveness */
+@media (max-width: 768px) {
+  .activity-header-page {
+    background-image: url("https://iso.500px.com/wp-content/uploads/2016/01/sanfrancisco_cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 350px;
+    width: 101.5%;
+  }
+
+  .tagline-activity {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 150px;
+  }
+  .activity-content {
+    background-color: #f2ede4;
+    width: 100%;
+    height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+
+  .activity-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  .drop-down {
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .btn-search {
+    font-size: 12px;
+  }
+  .activity-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    height: 285px;
+    margin-bottom: 20px;
+    width: 160px;
+    margin-left: -40px;
+  }
+
+  .activity-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .activity-image {
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+
+  .activity-name {
+    font-weight: bold;
+    margin-bottom: px;
+    font-size: 12px;
+  }
+
+  .activity-location,
+  .trip-date {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .activity-price {
+    text-align: right;
+    margin-top: -5px;
+    font-size: 10px;
+    text-decoration: line-through;
+  }
+
+  .activity-price-discount {
+    text-align: right;
+    margin-top: -18px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .activity-rating {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+
+  .activity-location {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 320px) {
+  .activity-header-page {
+    background-image: url("https://iso.500px.com/wp-content/uploads/2016/01/sanfrancisco_cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 350px;
+    width: 103%;
+  }
+  .tagline-detail-activity {
+    font-size: 15px;
+  }
+
+  .tagline-activity {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 100%;
+  }
+  .drop-down {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .btn-search {
+    font-size: 12px;
+  }
+  .activity-content {
+    background-color: #f2ede4;
+    width: 100%;
+    height: max-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+  .activity-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .activity-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    height: 285px;
+    margin-bottom: 20px;
+    width: 190px;
+    margin-left: 10px;
+  }
+}

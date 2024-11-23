@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.registerpage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://img.freepik.com/free-photo/wooden-bridge-koh-nangyuan-island-surat-thani-thailand_335224-1082.jpg?t=st=1715803701~exp=1715807301~hmac=ca150709b65756fb0bde2d2ba325b24530796f728d219a924f389e5e9ae5fc63&w=1800');
+  height: 90vh;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    height: 65vh max-content;
+    width: 100vh;
+  }
+  
+  .box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .formLabel {
+    margin-bottom: 5px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  }
+  
+  .formControl {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+  }
+  
+  .formCheck {
+    margin-bottom: 20px;
+  }
+  
+  .submitButton {
+    background-color: #727672;
+    border-color: #747674;
+    color: #4392F6;
+    font-weight: bolder;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .socialButton {
+    margin-right: 10px;
+  }
+  
+  .socialButton:last-child {
+    margin-right: 0;
+  }
+  
+
+  .leftColumn {
+    background-color: rgba(51, 96, 154, 0.8);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 60vh;
+    padding: 30px;
+  }
+  
+  .rightColumn {
+    background-color: rgba(229, 242, 228, 0.9);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 60vh;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+
+  .leftHeader {
+    font-size: 50px; 
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Potta One", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    color: #fafafa;
+    text-align: left;
+    
+  }
+  
+  .leftParagraph {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 80px;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif; }
+
+  .social-login{
+   
+    font-style: italic;
+    font-size: 15px;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+ 
+  .social-login .btn {
+    margin-right: 5px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+    
+  }
+  
+  .social-login .btn:last-child {
+    margin-right: 0;
+   
+  }
+  
+  
+  .form-control {
+    border-radius: 30px; 
+    border: 1px solid #ced4da; 
+    width: 92%;
+    height: 28px;
+    font-size: 20px;
+    
+  }
+
+  .form-control1 {
+    border-radius: 8px; 
+    border: 1px solid #ced4da; 
+    width: 82%;
+    height: 28px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    
+  }
+  
+  
+  .btn1 {
+    background-color:#4392F6;
+    border-color: #4392F6;
+    border-radius: 20px;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:700;
+    font-size: 13px;
+    color: white;
+    width: 85px;
+    height: 33px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .btn1:hover {
+    background-color: #368ed1;
+    border-color: #368ed1;
+    color: white;
+  }
+
+  .btn3 {
+    background-color: #368ed1; 
+    border-color: #368ed1;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:700;
+    font-size: 13px;
+    box-shadow: #727672 0 0 10px(0, 0, 0, 0.15);
+    color: white;
+    border-radius: 20px;
+    width: 85px;
+    height: 33px;
+    text-align: center;
+  }
+
+  .btn3:hover {
+    background-color: #3fb7dc;
+    border-color: #3fb7dc;
+    color: white;
+  }
+
+  
+  .form-label{
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  }
+  
+
+  .form-check-label{
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+  }
+  .notif {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(80, 115, 86)!important;
+    
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .registerpage {
+    height: auto; 
+    padding-bottom: 80px; 
+  }
+  .box-container {
+    flex-direction: column;
+    height: auto;
+    width: 60%;
+  }
+  .leftColumn{
+    height: auto; 
+    border-radius: 0;
+    padding: 20px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+  }
+  .rightColumn {
+    height: auto; 
+    border-radius: 0; 
+    padding: 20px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    
+   
+    
+  }
+  .form-label{
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+  }
+  .form-control {
+    border-radius: 5px; 
+    border: 1px solid #ced4da; 
+    width: 92%;
+    height: 20px;
+    font-size: 10px;
+    
+  }
+
+  .form-control1 {
+    border-radius: 8px; 
+    border: 1px solid #ced4da; 
+    width: 82%;
+    height: 28px;
+    font-size: 10px;
+    padding-left: 7px;
+    
+  }
+  .leftParagraph {
+    padding-top: 70px; 
+    font-size: 16px; 
+  }
+  .social-login {
+    text-align: left; 
+  }
+  .btn1, .btn3 {
+    width: 100%; 
+  }
+  .box {
+    padding: 20px; 
+  }
+  .leftHeader {
+    font-size: 30px; 
+  }
+}
+
+
+@media (max-width: 320px) {
+  .registerpage {
+    height: auto; 
+    padding-bottom: 20px; 
+  }
+  .box-container {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .leftColumn{
+    height: auto; 
+    border-radius: 0;
+    padding: 20px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    width: 50%;
+  }
+  .rightColumn {
+    height: auto; 
+    border-radius: 0; 
+    padding: 20px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+   
+    
+  }
+  .form-label{
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+  }
+  .form-control {
+    border-radius: 5px; 
+    border: 1px solid #ced4da; 
+    width: 92%;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .form-control1 {
+    border-radius: 8px; 
+    border: 1px solid #ced4da; 
+    width: 82%;
+    height: 28px;
+    font-size: 10px;
+    
+  }
+  .leftParagraph {
+    padding-top: 70px; 
+    font-size: 16px; 
+  }
+  .social-login {
+    text-align: left; 
+  }
+  .btn1, .btn3 {
+    width: 100%; 
+  }
+  .box {
+    padding: 20px; 
+  }
+  .leftHeader {
+    font-size: 30px; 
+  }
+}
+

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.detail-header-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
+    height: 350px;
+    width: 101%;
+
+    
+}
+
+.tagline-detail{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 190px;
+}
+
+.breadcrumb-detail{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-decoration: none;
+   
+}
+
+.breadcrumb-detail .breadcrumb-item a {
+    color: #4392F6; 
+}
+
+
+.breadcrumb-detail .breadcrumb-item.active a,
+.breadcrumb-detail .breadcrumb-item.active {
+    color: white; 
+    text-decoration: none;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    background: #dfd9ce;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    width: 80%;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .tour-rating{
+    display: flex;
+
+    background: #507356;
+    padding: 20px;
+    border-radius: 40px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    color: #ffffff;
+
+
+  }
+  
+.tour-pricing, .tour-description {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 40px;
+    width: 95%;
+    justify-content: center;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: start;
+
+  }
+
+  .tour-location{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 40px;
+    width: 95%;
+    justify-content: center;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: start;
+
+  }
+  
+  .tour-rating h2 {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .tour-rating p {
+    margin: 0;
+  }
+  
+  .tour-location h3, .tour-pricing p, .tour-description h3, .tour-description p {
+    color: black;
+  }
+  
+  .tour-pricing h2 {
+    color: #E53935;
+    font-size: 2em;
+  }
+  
+  .tour-pricing p {
+    text-decoration: line-through;
+    margin: 0;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tour-experience, .tour-schedule {
+    margin-bottom: 20px;
+  }
+  
+  .location-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc; 
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.location-info span {
+  font-size: 1rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .detail-header-page {
+      height: 250px;
+  }
+
+  .tagline-detail {
+      font-size: 24px;
+      padding-left: 50px;
+      padding-top: 130px;
+  }
+
+  .breadcrumb-detail {
+      font-size: 12px;
+      padding-left: 50px;
+  }
+
+  .tour-container {
+      width: 90%;
+      font-size: 15px;
+  }
+
+
+  .tour-rating h2 {
+    color: white;
+    font-size: 1.0em;
+  }
+  
+  .tour-rating p {
+    margin: 0;
+  }
+  
+  .tour-location h3, .tour-pricing p, .tour-description h3, .tour-description p {
+    color: black;
+    font-size: 1em;
+  }
+  
+  .tour-pricing h2 {
+    color: #E53935;
+    font-size: 2em;
+  }
+  
+  .tour-pricing p {
+    text-decoration: line-through;
+    margin: 0;
+  }
+  .google-map {
+    height: 100px; 
+}
+
+.modal-body {
+    height: 470px;
+    width: 1500px;
+}
+.tour-description {
+  font-size: 0.8em;
+}
+.tour-location {
+  font-size: 0.8em;
+}
+.btn-map {
+  border-radius: 20px;
+  font-size: 1em;
+}
+}
+
+@media (max-width: 320px) {
+  .detail-header-page {
+      height: 250px;
+  }
+
+  .tagline-detail {
+      font-size: 24px;
+      padding-left: 50px;
+      padding-top: 130px;
+  }
+
+  .breadcrumb-detail {
+      font-size: 12px;
+      padding-left: 50px;
+  }
+
+  .tour-container {
+      width: 90%;
+  }
+  .google-map {
+    height: 100px; 
+}
+
+.modal-body {
+    height: 470px;
+    width: 1500px;
+}
+
+}
